@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background: linear-gradient(135deg, #ff9980, #ff8566, #ff5c33);
+    font-family:sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    color: white;
+  }
+  .player {
+    background: rgba(0,0,0,0.50);
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    width: 320px;
+    text-align: center;
+  }
+  .player h1 {
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+  .cover-image {
+    width: 250px;
+    max-width: 280px;
+    border-radius: 15px;
+	border-style:solid;
+	border-color:black;
+    margin-bottom: 25px;
+    object-fit: cover;
+  }
+  audio {
+    width: 100%;
+    outline: none;
+    border-radius: 10px;
+  }
